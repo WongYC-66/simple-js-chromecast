@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Stream Link Finder",
+  "version": "1.0.0",
+  "description": "Find common video stream URLs on the current tab and copy them.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "Find stream links",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

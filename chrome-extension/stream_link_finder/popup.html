@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stream Link Finder</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Stream Link Finder</h1>
+      <p id="page-title">Scanning current tab…</p>
+    </div>
+    <button id="scan" class="secondary">Rescan</button>
+  </header>
+  <div id="status" role="status">Looking for video links…</div>
+  <main id="results"></main>
+  <footer>
+    Finds common direct media URLs and video elements. Some sites use protected,
+    encrypted, or blob-based playback that cannot be copied as a reusable URL.
+  </footer>
+  <script src="popup.js"></script>
+</body>
+</html>

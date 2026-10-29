@@ -1,0 +1,23 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0; width: 440px; max-height: 600px; overflow: hidden;
+  color: #202124; background: #f8f9fa;
+  font: 13px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+header { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; padding: 14px 14px 10px; background: white; border-bottom: 1px solid #dadce0; }
+h1 { margin: 0; font-size: 16px; }
+#page-title { margin: 3px 0 0; color: #5f6368; max-width: 300px; overflow-wrap: anywhere; }
+button { border: 0; border-radius: 6px; padding: 7px 10px; cursor: pointer; font-weight: 600; }
+button:focus-visible { outline: 2px solid #1a73e8; outline-offset: 2px; }
+.secondary { background: #e8f0fe; color: #174ea6; }
+.copy { background: #1a73e8; color: white; white-space: nowrap; }
+#status { padding: 9px 14px; color: #5f6368; }
+#results { overflow-y: auto; max-height: 405px; padding: 0 10px 10px; }
+.card { background: white; border: 1px solid #dadce0; border-radius: 8px; padding: 10px; margin-bottom: 8px; }
+.card-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+.name { font-weight: 700; overflow-wrap: anywhere; }
+.kind { display: inline-block; margin-top: 4px; font-size: 11px; color: #5f6368; background: #f1f3f4; padding: 2px 6px; border-radius: 4px; }
+.meta { margin-top: 7px; color: #5f6368; display: flex; gap: 10px; flex-wrap: wrap; }
+.url { margin-top: 7px; color: #174ea6; overflow-wrap: anywhere; word-break: break-word; font-size: 11px; }
+.empty { padding: 18px 8px; text-align: center; color: #5f6368; }
+footer { padding: 9px 14px 12px; color: #5f6368; font-size: 11px; background: white; border-top: 1px solid #dadce0; }
